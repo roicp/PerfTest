@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PerfTest.MiddlewarePipeline\PerfTest.MiddlewarePipeline.csproj" />
+    <ProjectReference Include="..\PerfTest.ValidaCpf\PerfTest.ValidaCpf.csproj" />
+    <ProjectReference Include="..\PerfTest.GoogleInterview\PerfTest.GoogleInterview.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+</Project>
